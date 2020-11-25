@@ -180,3 +180,10 @@ li {
 #description {
   font-style: italic;
 }
+
+#footer {
+  display: inline;
+  position: relative;
+  left: 5px;
+  bottom: -30px;
+}
