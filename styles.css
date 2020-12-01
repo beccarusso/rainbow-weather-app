@@ -2,11 +2,6 @@ h1,
 h2 {
   text-align: center;
 }
-.card {
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 10px;
-}
 
 img {
   position: relative;
@@ -14,6 +9,12 @@ img {
 
 body {
   font-family: "Abel", sans-serif;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 .card-body {
@@ -59,6 +60,8 @@ p.card-title {
   font-size: 26px;
 }
 
+.daysofweek .sunshine,
+.daysofweek .cloudy,
 .daysofweek .raining {
   height: 20px;
   width: 20px;
@@ -66,56 +69,39 @@ p.card-title {
   top: 7px;
 }
 
-.daysofweek .sunshine,
-.daysofweek .cloudy {
-  height: 20px;
-  width: 20px;
-  position: relative;
-  top: 7px;
+.sundayRadius,
+.mondayRadius,
+.tuesdayRadius,
+.wednesdayRadius,
+.thursdayRadius,
+.fridayRadius,
+.saturdayRadius {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
 }
 .sundayRadius {
   border: 4px solid rgb(248, 159, 137);
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
 }
 .mondayRadius {
   border: 4px solid rgb(245, 191, 91);
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
 }
 
 .tuesdayRadius {
   border: 4px solid rgb(247, 244, 95);
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
 }
 .wednesdayRadius {
   border: 4px solid rgb(114, 236, 131);
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
 }
 
 .thursdayRadius {
   border: 4px solid rgb(132, 225, 248);
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
 }
 .fridayRadius {
   border: 4px solid rgb(107, 151, 247);
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
 }
 .saturdayRadius {
   border: 4px solid rgba(236, 153, 243, 0.904);
-  border-radius: 100%;
-  height: 40px;
-  width: 40px;
 }
 
 .mainTemperature {
