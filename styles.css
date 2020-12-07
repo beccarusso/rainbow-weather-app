@@ -62,11 +62,12 @@ p.card-title {
 
 .daysofweek .sunshine,
 .daysofweek .cloudy,
-.daysofweek .raining {
-  height: 20px;
-  width: 20px;
+.daysofweek .raining,
+.daysofweek .thunder {
+  height: 65%;
+  width: 65%;
   position: relative;
-  top: 7px;
+  top: 6px;
 }
 
 .sundayRadius,
@@ -77,8 +78,8 @@ p.card-title {
 .fridayRadius,
 .saturdayRadius {
   border-radius: 100%;
-  height: 40px;
-  width: 40px;
+  height: 41px;
+  width: 41px;
 }
 .sundayRadius {
   border: 4px solid rgb(248, 159, 137);
