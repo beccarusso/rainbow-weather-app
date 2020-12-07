@@ -70,38 +70,38 @@ p.card-title {
   top: 6px;
 }
 
-.sundayRadius,
-.mondayRadius,
-.tuesdayRadius,
-.wednesdayRadius,
-.thursdayRadius,
-.fridayRadius,
-.saturdayRadius {
+.day1Radius,
+.day2Radius,
+.day3Radius,
+.day4Radius,
+.day5Radius,
+.day6Radius,
+.day7Radius {
   border-radius: 100%;
   height: 41px;
   width: 41px;
 }
-.sundayRadius {
+.day1Radius {
   border: 4px solid rgb(248, 159, 137);
 }
-.mondayRadius {
+.day2Radius {
   border: 4px solid rgb(245, 191, 91);
 }
 
-.tuesdayRadius {
+.day3Radius {
   border: 4px solid rgb(247, 244, 95);
 }
-.wednesdayRadius {
+.day4Radius {
   border: 4px solid rgb(114, 236, 131);
 }
 
-.thursdayRadius {
+.day5Radius {
   border: 4px solid rgb(132, 225, 248);
 }
-.fridayRadius {
+.day6Radius {
   border: 4px solid rgb(107, 151, 247);
 }
-.saturdayRadius {
+.day7Radius {
   border: 4px solid rgba(236, 153, 243, 0.904);
 }
 
