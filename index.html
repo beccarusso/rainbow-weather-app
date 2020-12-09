@@ -22,16 +22,15 @@
             <img src="https://www.linkpicture.com/q/rainbowgradient.jpg" class="card-img-top" alt="...">
 
             <div class="top">
-
-                <div class="searchBar">
+                <div class="searchBar" id="searchBar">
                     <form class="form-inline md-form mr-auto mb-4" id="search-form">
 
                         <input class="form-control mr-sm-2" type="search" placeholder="Search City" 
                         aria-label="Search"
                             id="city-input">
-                        <button class="searchButton" type="submit"><i class="fas fa-search"></i>
-                        </button>
-                    <button class="searchButton2" id="current-location-button">
+                        <button class="searchButton" type="submit" id="searchButton"><i class="fas fa-search"></i>   
+                        </button> 
+                    <button class="locationButton" id="current-location-button">
                     
                         <i class="fas fa-map-marker-alt"></i></button>
                     </form>
@@ -49,23 +48,26 @@
                             Jamestown <br />
                         </div>
                         <ul>
-                            <li id="date"></li>
+                        <li id="date"></li>
                             <li id="description"></li>
                             <li>Humidity: <span id="humidity"></span>%</li>
                             <li>Wind: <span id="wind"></span> km/h</li>
-                            
+                            <img src=images/icons/WinteryMix.png id="mainDisplayIcon">
                             
                         </ul>
                         <div class="mainTemperature" id="temperature">
                             56
                         </div>
-
+ 
                         </p>
-
+ 
                     </div>
+               
                 </div>
+              
             </div>
-<span class="small">°F</span>
+
+
             <div class="daysofweek">
                 <div class="container">
                     <div class="row no-gutters">
