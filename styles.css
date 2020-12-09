@@ -27,6 +27,8 @@ body {
 .daysofweek {
   text-align: center;
   font-size: 13.5px;
+  position: relative;
+  left: 20px;
 }
 
 .top {
@@ -120,31 +122,29 @@ p.card-title {
 }
 #searchBar {
   margin: 0 auto;
-  margin-bottom: 10px;
-  padding-left: 90px;
+  margin-bottom: 50px;
   left: 90px;
   position: relative;
   bottom: 350px;
-  display: inline;
+  display: block;
 }
 
-#searchButton {
+#searchButton,
+#current-location-button {
   margin: 0 auto;
   border-radius: 4px;
   border: 2px rgb(153, 153, 153);
   color: grey;
-  display: inline-block;
-  left: -40px;
   position: relative;
+  top: 5px;
 }
 #current-location-button {
-  border-radius: 4px;
-  border: 2px rgb(153, 153, 153);
-  color: grey;
-  margin: 0 auto;
-  display: inline-block;
   position: relative;
-  left: -115px;
+  right: -9px;
+}
+#searchButton {
+  position: relative;
+  left: 5px;
 }
 
 #mainDisplayIcon {
