@@ -47,6 +47,7 @@ p.card-title {
 }
 .city {
   font-weight: 600;
+  font-size: 32px;
 }
 .mainDisplay {
   position: relative;
@@ -61,7 +62,20 @@ p.card-title {
   margin-right: 100px;
   border-radius: 6px;
   border: 6px gray;
-  font-size: 26px;
+}
+
+#temperature {
+  font-size: 50px;
+  position: relative;
+  left: 15px;
+}
+
+.units {
+  text-align: center;
+  position: relative;
+  font-size: 13px;
+  top: -20px;
+  left: 5px;
 }
 
 .daysofweek .sunshine,

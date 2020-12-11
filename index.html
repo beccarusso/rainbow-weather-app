@@ -69,14 +69,18 @@
                         </div>
                         <ul>
                         <li id="date"></li>
-                            <li id="description"></li>
+                        
                             <li>Humidity: <span id="humidity"></span>%</li>
-                            <li>Wind: <span id="wind"></span> km/h</li>
+                            <li>Wind: <span id="wind"></span> 
+                                <span class="windUnits"></span>km/h</li>
+                            <li id="description"></li>
                             <img src=images/icons/WinteryMix.png id="mainDisplayIcon">
                             
                         </ul>
-                        <div class="mainTemperature" id="temperature">
-                            56
+                        <div class="mainTemperature">
+                            <strong id="temperature"></strong>
+                            <span class="units"><a href="#" id="farenheit-link" class="active">°F</a> |
+                                <a href="#" id="celcius-link">°C</a></span>
                         </div>
  
                         </p>
