@@ -128,7 +128,6 @@ p.card-title {
   text-align: center;
   font-weight: 800;
   font-size: 34px;
-  bottom: -10px;
   left: -10px;
   position: relative;
   padding-bottom: 10px;
@@ -161,10 +160,9 @@ p.card-title {
   left: 5px;
 }
 
-#mainDisplayIcon {
-  top: 10px;
-  width: 40%;
-  height: 40%;
+#icon {
+  width: 75px;
+  height: 75px;
 }
 
 .textConditions .li {

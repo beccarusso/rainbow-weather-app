@@ -19,46 +19,39 @@
     <div class="container">
         <div class="card" style="width: 25rem;">
 
-            <img src="https://www.linkpicture.com/q/rainbowgradient.jpg" 
-            class="card-img-top" 
-            alt="...">
+            <img src="https://www.linkpicture.com/q/rainbowgradient.jpg" class="card-img-top" alt="...">
 
             <div class="top">
                 <div class="searchBar" id="searchBar">
-                    <form class="form-inline md-form mr-auto mb-4" 
-                    id="search-form">
+                    <form class="form-inline md-form mr-auto mb-4" id="search-form">
 
-                    <div class ="row">
-                        <div class="col-">
-                            <input class="form-control mr-sm-2" 
-                            type="search" placeholder="Search City" 
-                            aria-label="Search"
-                            id="city-input">
+                        <div class="row">
+                            <div class="col-">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search City"
+                                    aria-label="Search" id="city-input">
+                            </div>
+
+                            <div class="col-">
+                                <button class="searchButton" type="submit" id="searchButton">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+
+                            <div class="col-">
+                                <button class="locationButton" id="current-location-button">
+                                    <i class="fas fa-map-marker-alt"></i>
+                            </div>
+
+
+                            </button>
                         </div>
-                    
-                    <div class="col-">
-                        <button class="searchButton" 
-                    type="submit" id="searchButton">
-                    <i class="fas fa-search"></i>   
-                    </button> 
-                    </div>
 
-                    <div class ="col-">
-                    <button class="locationButton" 
-                    id="current-location-button">
-                    <i class="fas fa-map-marker-alt"></i>
-                    </div>
+                    </form>
 
-                
-                </button>
+
                 </div>
 
-                </form>
-                    
-                
-                </div>
-               
-                
+
 
                 <div class=container>
                     <div class="mainDisplay">
@@ -68,146 +61,146 @@
                             Jamestown <br />
                         </div>
                         <ul>
-                        <li id="date"></li>
-                        
+                            <li id="date"></li>
+
                             <li>Humidity: <span id="humidity"></span>%</li>
-                            <li>Wind: <span id="wind"></span> 
+                            <li>Wind: <span id="wind"></span>
                                 <span class="windUnits"></span>km/h</li>
                             <li id="description"></li>
-                            <img src=images/icons/WinteryMix.png id="mainDisplayIcon">
-                            
+                            <img src=images/icons/WinteryMix.png id="icon">
+
                         </ul>
                         <div class="mainTemperature">
                             <strong id="temperature"></strong>
-                            <span class="units"><a href="#" id="farenheit-link" class="active">°F</a> |
-                                <a href="#" id="celcius-link">°C</a></span>
+                            <span class="units"><a href="#" id="fahrenheit-link" class="active">°F</a> |
+                                <a href="#" id="celsius-link">°C</a></span>
                         </div>
- 
+
                         </p>
- 
+
                     </div>
-               
+
                 </div>
-              
+
             </div>
 
 
             <div class="daysofweek">
-                    <div class="row no-gutters">
+                <div class="row no-gutters">
 
-                        <div class="day1">
-                            <div class=col->
+                    <div class="day1">
+                        <div class=col->
 
-                                <div class="card-body">
-                                    <h5 class="card-title sm">Su</h5>
-                                    <div class="day1Radius">
-                                        <img class="raining" src=images/icons/Rain_Medium.png>
-                                    </div>
-                                    </br>
-                                    <p class="card-text">47°/30°
-                                    </p>
-
+                            <div class="card-body">
+                                <h5 class="card-title sm">Su</h5>
+                                <div class="day1Radius">
+                                    <img class="raining" src=images/icons/Rain_Medium.png>
                                 </div>
+                                </br>
+                                <p class="card-text">47°/30°
+                                </p>
+
                             </div>
                         </div>
-                        <div class="day2">
+                    </div>
+                    <div class="day2">
 
-                            <div class=col->
+                        <div class=col->
 
-                                <div class="card-body">
-                                    <h5 class="card-title">M</h5>
-                                    <div class="day2Radius">
-                                        <img class="cloudy" src=images/icons/Cloud.png>
-                                    </div>
-                                    </br>
-                                    <p class="card-text">44°/32°</p>
-
+                            <div class="card-body">
+                                <h5 class="card-title">M</h5>
+                                <div class="day2Radius">
+                                    <img class="cloudy" src=images/icons/Cloud.png>
                                 </div>
+                                </br>
+                                <p class="card-text">44°/32°</p>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="day3">
-                            <div class=col->
+                    <div class="day3">
+                        <div class=col->
 
-                                <div class="card-body">
-                                    <h5 class="card-title">T</h5>
-                                    <div class="day3Radius">
-                                        <img class="sunshine" src=images/icons/Sun.png>
-                                    </div>
-                                    </br>
-                                    <p class="card-text">49°/35°</p>
-
+                            <div class="card-body">
+                                <h5 class="card-title">T</h5>
+                                <div class="day3Radius">
+                                    <img class="sunshine" src=images/icons/Sun.png>
                                 </div>
+                                </br>
+                                <p class="card-text">49°/35°</p>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="day4">
-                            <div class=col->
+                    <div class="day4">
+                        <div class=col->
 
-                                <div class="card-body">
-                                    <h5 class="card-title">W</h5>
-                                    <div class="day4Radius">
-                                        <img class="raining" src=images/icons/Rain_Heavy_Sun.png>
-                                    </div>
-                                    </br>
-                                    <p class="card-text">56°/39°</p>
-
+                            <div class="card-body">
+                                <h5 class="card-title">W</h5>
+                                <div class="day4Radius">
+                                    <img class="raining" src=images/icons/Rain_Heavy_Sun.png>
                                 </div>
+                                </br>
+                                <p class="card-text">56°/39°</p>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="day5">
-                            <div class=col->
+                    <div class="day5">
+                        <div class=col->
 
-                                <div class="card-body">
-                                    <h5 class="card-title">Th</h5>
-                                    <div class="day5Radius">
-                                        <img class="raining" src=images/icons/Rain_Heavy_Sun.png>
-                                    </div>
-                                    </br>
-                                    <p class="card-text">53°/38°</p>
-
+                            <div class="card-body">
+                                <h5 class="card-title">Th</h5>
+                                <div class="day5Radius">
+                                    <img class="raining" src=images/icons/Rain_Heavy_Sun.png>
                                 </div>
+                                </br>
+                                <p class="card-text">53°/38°</p>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="day6">
-                            <div class=col->
+                    <div class="day6">
+                        <div class=col->
 
-                                <div class="card-body">
-                                    <h5 class="card-title">F</h5>
-                                    <div class="day6Radius">
-                                        <img class="sunshine" src=images/icons/Sun.png>
-                                    </div>
-                                    </br>
-                                    <p class="card-text">51°/38°</p>
-
+                            <div class="card-body">
+                                <h5 class="card-title">F</h5>
+                                <div class="day6Radius">
+                                    <img class="sunshine" src=images/icons/Sun.png>
                                 </div>
+                                </br>
+                                <p class="card-text">51°/38°</p>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="day7">
-                            <div class=col->
+                    <div class="day7">
+                        <div class=col->
 
-                                <div class="card-body">
-                                    <h5 class="card-title">S</h5>
-                                    <div class="day7Radius">
-                                        <img class="thunder" src=images/icons/Thunder.png>
-                                    </div>
-                                    </br>
-                                    <p class="card-text">51°/39°</p>
-
+                            <div class="card-body">
+                                <h5 class="card-title">S</h5>
+                                <div class="day7Radius">
+                                    <img class="thunder" src=images/icons/Thunder.png>
                                 </div>
+                                </br>
+                                <p class="card-text">51°/39°</p>
+
                             </div>
                         </div>
+                    </div>
 
                 </div>
             </div>
-            
-               <div class="footer" id="footer">
-                    <a href="https://github.com/beccarusso/rainbow-weather-app" >     Open-source code</a> by Rebecca Russo
-               </div>
-                
+
+            <div class="footer" id="footer">
+                <a href="https://github.com/beccarusso/rainbow-weather-app"> Open-source code</a> by Rebecca Russo
+            </div>
+
             <script src="index.js"></script>
 </body>
 
