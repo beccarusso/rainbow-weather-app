@@ -24,22 +24,10 @@ body {
   padding: 4px;
 }
 
-.daysofweek {
-  text-align: center;
-  font-size: 13.5px;
-  position: relative;
-  left: 20px;
-}
-
 .top {
   height: 10px;
   position: relative;
   top: -25px;
-}
-
-.mainDisplay .raining {
-  height: 35px;
-  width: 35px;
 }
 
 p.card-title {
@@ -54,10 +42,10 @@ p.card-title {
   height: 150x;
   width: 150x;
   text-align: center;
-  bottom: 350px;
+  bottom: 360px;
   background: #fff;
-  margin-top: -20px;
-  padding-bottom: -20px;
+  margin-top: -15px;
+  padding-bottom: -30px;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 6px;
@@ -76,51 +64,6 @@ p.card-title {
   font-size: 13px;
   top: -20px;
   left: 5px;
-}
-
-.daysofweek .sunshine,
-.daysofweek .cloudy,
-.daysofweek .raining,
-.daysofweek .thunder {
-  height: 65%;
-  width: 65%;
-  position: relative;
-  top: 6px;
-}
-
-.day1Radius,
-.day2Radius,
-.day3Radius,
-.day4Radius,
-.day5Radius,
-.day6Radius,
-.day7Radius {
-  border-radius: 100%;
-  height: 41px;
-  width: 41px;
-}
-.day1Radius {
-  border: 4px solid rgb(248, 159, 137);
-}
-.day2Radius {
-  border: 4px solid rgb(245, 191, 91);
-}
-
-.day3Radius {
-  border: 4px solid rgb(247, 244, 95);
-}
-.day4Radius {
-  border: 4px solid rgb(114, 236, 131);
-}
-
-.day5Radius {
-  border: 4px solid rgb(132, 225, 248);
-}
-.day6Radius {
-  border: 4px solid rgb(107, 151, 247);
-}
-.day7Radius {
-  border: 4px solid rgba(236, 153, 243, 0.904);
 }
 
 .mainTemperature {
@@ -184,15 +127,6 @@ li {
   height: 19px;
   line-height: 1;
   list-style: none;
-}
-
-.small {
-  font-size: 12px;
-  display: inline;
-  position: relative;
-  left: 30px;
-  bottom: 40px;
-  font-weight: 800;
 }
 
 #description {
